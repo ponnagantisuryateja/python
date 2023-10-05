@@ -1,12 +1,18 @@
 car = {
 "brand": "Ford",
 "model": "Mustang",
-"year": 1964
+"year": 2023
 }
+print("my car details==",car)
+car.update({
+  "colour":["white","black","red","yellow"],
+  "top speed":140,
+})
+print("the updated car details are==",car)
 x = car.keys()
-y= car.values()
-print(x) #before the change
-print(y)
-car["color"] = "white"
 print(x)
-print(y)#after the change
+y = car.values()
+print(y)
+
+z=car.items()
+print("the items in car are==",z)

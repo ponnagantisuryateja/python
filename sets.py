@@ -14,7 +14,8 @@ homogeneousSet.add("orange")
 print("modified homogeneousset",homogeneousSet)
 #add two sets
 myset={"table","cooler","fan","bed"}
-newset={"house","car","chair","pen"}
+newset={"house","car","chair","pen",
+        0}
 myset.update(newset)
 print("updated set is",myset)
 hetrogeneousSet.discard("nani")
